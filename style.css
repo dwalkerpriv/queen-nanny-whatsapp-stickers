@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media screen and (min-width: 500px) {
+  .nanny_h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .nanny_h1 {
+    font-size: 40px;
+  }
+}
+/*header area*/
+
+.header_items {
+  display: flex;
+  justify-content: center;
+  align-items: ;
+  margin-top: 20px;
+}
+
+.created_by > a {
+  text-decoration: none;
+  color: #70623f;
+  margin-right: 40px;
+}
+
+.created_by > a:hover {
+  color: #eaba34;
+}
+
+.ig > a > img {
+  width: 20px;
+  margin-right: 15px;
+}
+
+.behance > a > img {
+  width: 25px;
+  margin: ;
+}
+
+.ig > a > img:hover {
+  color: #eaba34;
+}
+
+/*fold section*/
+
+.top {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.left_header {
+  background-color: #202020;
+  color: white;
+  width: 500px;
+  height: 580;
+  border-radius: 25px;
+}
+
+.nanny_h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0px 0px 20px 0px;
+  color: #eaba34;
+}
+
+.left_header > div > p {
+  font-size: 3rem;
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp_logo {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.whatsapp_logo > img {
+  width: 60%;
+}
+
+.descript {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+}
+
+a > img {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.hero_image {
+  display: flex;
+  justify-content: center;
+  background-color: #2bad4d;
+  width: 770;
+  height: 580;
+  border-radius: 25px;
+}
+
+.hero_image > div > img {
+  width: 99.95%;
+  padding: 6%;
+}
+
+/*PREVIEW IMAGES*/
+
+.preview_images {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.preview_images > div > img {
+  border-radius: 15px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  .preview_images > div > img {
+    display: none;
+  }
+}
+@media screen and (max-width: 399px) {
+  .preview_images > div > img {
+    display: ;
+  }
+}
+
+/*Lower section. Details of other heroes*/
+
+.lower_section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display: block;
+  padding-bottom: 25px;
+  justify-self: center;
+  border-radius: 25px;
+  background-color: #eaba34;
+  width: 1270;
+  height: 580;
+}
+
+.upcoming_h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #eaba34;
+  margin-top: 20px;
+}
+
+.image_set {
+  margin-right: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #202020;
+  margin-bottom: 20px;
+}
+
+.image_set > a {
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image_set > a {
+  color: #202020;
+  text-decoration: none;
+}
+
+.image_set > a:hover {
+  color: #2bad4d;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*Email signup*/
+
+.get_notified {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.notified_h1 {
+  color: #202020;
+  margin: 10px;
+}
+
+.email_form {
+  margin: 10px;
+}
+
+input {
+  height: 40px;
+  width: 300;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-style: none;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+button {
+  font-size: 18px;
+  background-color: #2bad4d;
+  color: white;
+  height: 40px;
+  width: 120px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-style: none;
+}
+
+button:focus {
+  background-color: #202020;
+}
+
+.form {
+}
