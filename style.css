@@ -13,16 +13,24 @@ html {
   font-size: 62.5%;
 }
 
-@media screen and (min-width: 500px) {
-  .nanny_h1 {
-    font-size: 25px;
-  }
-}
-@media screen and (max-width: 499px) {
-  .nanny_h1 {
+@media screen and (max-width: 500px) {
+  .nanny_h1 > h1 {
     font-size: 40px;
   }
 }
+
+@media screen and (min-width: 501px) {
+  .nanny_h1 > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .left_header > div > p {
+    font-size: 10px;
+  }
+}
+
 /*header area*/
 
 .header_items {
@@ -136,24 +144,29 @@ a > img {
 /*PREVIEW IMAGES*/
 
 .preview_images {
+  border-radius: 25px;
+  background-color: #2bad4d;
   display: flex;
   flex-wrap: wrap;
-  padding: 10px;
+  justify-content: center;
+  padding: 20px;
 }
 
 .preview_images > div > img {
   border-radius: 15px;
   margin: 5px;
+  width: 250px;
 }
 
-@media screen and (min-width: 400px) {
-  .preview_images > div > img {
-    display: none;
-  }
-}
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 500px) {
   .preview_images > div > img {
     display: ;
+  }
+}
+
+@media screen and (min-width: 501px) {
+  .preview_images {
+    display: none;
   }
 }
 
@@ -180,6 +193,12 @@ a > img {
   margin-top: 20px;
 }
 
+@media screen and (max-width: 500px) {
+  .upcoming_h1 {
+    font-size: 12px;
+  }
+}
+
 .image_set {
   margin-right: 5px;
   margin-left: 5px;
@@ -187,7 +206,7 @@ a > img {
   justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #202020;
   margin-bottom: 20px;
@@ -210,6 +229,20 @@ a > img {
 .image_set > a:hover {
   color: #2bad4d;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image_set > a > div > img {
+  width: 160px;
+}
+
+@media screen and (max-width: 500px) {
+  .image_set {
+    font-size: 1rem;
+  }
+
+  .image_set > a > div > img {
+    width: 100px;
+  }
 }
 
 /*Email signup*/
@@ -254,5 +287,18 @@ button:focus {
   background-color: #202020;
 }
 
+@media screen and (max-width: 500px) {
+  button {
+    width: 80px;
+  }
+
+  input {
+    width: 180px;
+  }
+
+  .notified_h1 > h1 {
+    font-size: 15px;
+  }
+}
 .form {
 }
